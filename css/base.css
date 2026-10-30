@@ -1,0 +1,34 @@
+/* Define font */
+@font-face {
+  font-family: worksans;
+  src: url(../static/font/Worksans.woff2);
+}
+/* Variables */
+:root {
+  --color-primary: #00ad6a;
+  --color-primary-bright: #1fe374;
+  --color-text: #080c16;
+  --color-text-body: #464951;
+  --color-text-muted: #83858a;
+  --color-text-on-dark: #fff;
+  --color-hover: #062c27;
+  --color-border: #d6dae5;
+  --bg-hero: linear-gradient(
+    90deg,
+    #fcfcfc,
+    #eafaf1 20%,
+    #eafaf1 50%,
+    #eafaf1 80%,
+    #fcfcfc
+  );
+  --bg-brand: linear-gradient(90deg, #00ab6a, #23ea76);
+  --bg-secondary: #3ba0f2;
+  --shadow-btn: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+  --shadow-card: -10px 10px #00ad6a;
+}
+* {
+  font-family: worksans;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
