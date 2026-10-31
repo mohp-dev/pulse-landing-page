@@ -32,7 +32,7 @@
   transform: translate3d(5px, -5px, 0);
 }
 .hero__content {
-  margin: 0 3rem;
+  margin: 0 4rem;
 }
 .hero__title {
   font-size: 3.5rem;
@@ -40,9 +40,37 @@
 .hero__text {
   width: 50%;
 }
+.testimonials {
+  padding: 8rem 0;
+}
 .testimonials__title {
   font-size: 3rem;
 }
 .testimonials__subtitle {
   font-size: 1.125rem;
+}
+.business-intro {
+  margin: 0 4rem;
+  padding: 8rem 1.5rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.business-intro__content {
+  margin-top: 1.5rem;
+  width: 50%;
+}
+.customer-quote {
+  padding: 3rem 2rem;
+  width: 35%;
+}
+.business-intro__title {
+  font-size: 3rem;
+  text-align: left;
+}
+.business-intro__description {
+  text-align: left;
+}
+.customer-quote__link:hover {
+  color: var(--color-hover);
 }
