@@ -40,3 +40,9 @@
 .hero__text {
   width: 50%;
 }
+.testimonials__title {
+  font-size: 3rem;
+}
+.testimonials__subtitle {
+  font-size: 1.125rem;
+}
