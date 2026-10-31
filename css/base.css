@@ -32,3 +32,22 @@
   margin: 0;
   padding: 0;
 }
+.header__nav {
+  display: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.header__logo {
+}
+.header__menu-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__menu-icon {
+  width: 65%;
+}

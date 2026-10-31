@@ -1,0 +1,55 @@
+:root {
+  --color-primary: #00ad6a;
+  --color-primary-bright: #1fe374;
+  --color-text: #080c16;
+  --color-text-body: #464951;
+  --color-text-muted: #83858a;
+  --color-text-on-dark: #fff;
+  --color-hover: #062c27;
+  --color-border: #d6dae5;
+  --bg-hero: linear-gradient(
+    90deg,
+    #fcfcfc,
+    #eafaf1 20%,
+    #eafaf1 50%,
+    #eafaf1 80%,
+    #fcfcfc
+  );
+  --bg-brand: linear-gradient(90deg, #00ab6a, #23ea76);
+  --bg-secondary: #3ba0f2;
+  --shadow-btn: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
+  --shadow-card: -10px 10px #00ad6a;
+}
+.header {
+  background: var(--bg-hero);
+  border: none;
+  padding: 3rem 1.5rem;
+}
+.header__menu-btn {
+  display: none;
+}
+.header__nav {
+  display: block;
+  width: 80%;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav__item {
+  list-style-type: none;
+}
+.nav__link {
+  text-decoration: none;
+  outline: none;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+.nav__link-signup {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-primary);
+}
+.nav__link:not(.nav__link-signup) {
+  margin-right: 2.5rem;
+}
