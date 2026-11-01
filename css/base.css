@@ -21,6 +21,7 @@
     #eafaf1 80%,
     #fcfcfc
   );
+  --bg-banner: linear-gradient(90deg, #00ab6a, #23ea76);
   --bg-brand: linear-gradient(90deg, #00ab6a, #23ea76);
   --bg-secondary: #3ba0f2;
   --shadow-btn: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
@@ -189,4 +190,34 @@ body {
 .customer-quote__link {
   color: var(--color-primary);
   font-weight: 700;
+}
+.banner {
+  background: var(--bg-banner);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem 1.5rem;
+}
+.banner__title {
+  color: var(--color-text-on-dark);
+  font-size: 2.25rem;
+  line-height: 1.15;
+  letter-spacing: -2px;
+  margin-bottom: 1.5rem;
+}
+.banner__description {
+  color: var(--color-text-on-dark);
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+.banner__btn {
+  color: var(--color-hover);
+  background-color: var(--color-text-on-dark);
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
 }

@@ -17,6 +17,7 @@
   );
   --bg-brand: linear-gradient(90deg, #00ab6a, #23ea76);
   --bg-secondary: #3ba0f2;
+  --banner-btn-shadow: -5px 5px #dadbdc;
   --shadow-btn: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
   --shadow-card: -10px 10px #00ad6a;
 }
@@ -73,4 +74,14 @@
 }
 .customer-quote__link:hover {
   color: var(--color-hover);
+}
+.banner__content {
+  margin-left: 4rem;
+}
+.banner__title {
+  font-size: 3rem;
+}
+.banner__btn:hover {
+  box-shadow: var(--banner-btn-shadow);
+  transform: translate3d(5px, -5px, 0);
 }

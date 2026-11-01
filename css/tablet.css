@@ -53,3 +53,15 @@
 .nav__link:not(.nav__link-signup) {
   margin-right: 2.5rem;
 }
+.banner {
+  height: 100vh;
+  background-image: url("../static/images/hero-small-biz.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner__title,
+.banner__description {
+  width: 50%;
+}
