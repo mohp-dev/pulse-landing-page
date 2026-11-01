@@ -85,3 +85,22 @@
   box-shadow: var(--banner-btn-shadow);
   transform: translate3d(5px, -5px, 0);
 }
+.blog-section {
+  padding: 8rem 0;
+  margin: 0 4rem;
+}
+.blog-section__title {
+  width: 70%;
+  font-size: 3rem;
+}
+.blog-section__description {
+  width: 55%;
+}
+.blog-card {
+  width: calc(33% - 1rem);
+  /* min-height: 500px; */
+}
+.blog-card:hover {
+  box-shadow: var(--shadow-card);
+  transform: translate3d(5px, -5px, 0);
+}

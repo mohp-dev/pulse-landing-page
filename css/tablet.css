@@ -17,6 +17,7 @@
   );
   --bg-brand: linear-gradient(90deg, #00ab6a, #23ea76);
   --bg-secondary: #3ba0f2;
+  --banner-btn-shadow: -5px 5px #dadbdc;
   --shadow-btn: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
   --shadow-card: -10px 10px #00ad6a;
 }
@@ -64,4 +65,13 @@
 .banner__title,
 .banner__description {
   width: 50%;
+}
+.blog-section__container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:  stretch;
+  flex-wrap: wrap;
+}
+.blog-card {
+  width: calc(50% - 1rem);
 }
